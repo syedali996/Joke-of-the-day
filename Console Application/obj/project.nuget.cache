@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3IdzYK3q2l+RCHDO5HpnCxqmpALPtLjS2NpT+XFmS0uQqneD08B5HA2fKtNvpSHSrgC7dAWTedu9aARtC8Hwhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sali9\\Downloads\\Jokes\\Git Submission\\Joke Bot Application\\Console Application\\Console Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sali9\\.nuget\\packages\\jsonsubtypes\\1.6.0\\jsonsubtypes.1.6.0.nupkg.sha512",
+    "C:\\Users\\sali9\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\sali9\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\sali9\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\sali9\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
