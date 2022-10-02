@@ -2,3 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 .vs/
+Console Application/bin/
+Console Application/obj/
+JokeOfTheDay.Standard/bin/
+JokeOfTheDay.Standard/obj/
+SlackAPI.Standard/bin/
+SlackAPI.Standard/obj/
