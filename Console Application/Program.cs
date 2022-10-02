@@ -15,7 +15,7 @@ namespace Console_Application
             if (args.Count() != 3)
             {
                 Console.WriteLine("Please provide the following arguments:");
-                Console.WriteLine("1) Time interval in milliseconds");
+                Console.WriteLine("1) Time interval in hours");
                 Console.WriteLine("2) Slack API access token");
                 Console.WriteLine("3) Slack channel ID");
 
@@ -25,7 +25,7 @@ namespace Console_Application
             Console.WriteLine("Welcome to the Joke Bot Slack Integration!");
             Console.WriteLine("The application uses \"Joke of the day API\" and \"Slack API\" to publish jokes on slack.");
 
-            var intervalBetweenJokePublishing = int.Parse(args[0]);
+            var intervalBetweenJokePublishing = int.Parse(args[0]) * 60 * 60 * 1000;
             var slackAPIAccessToken = args[1];
             var slackChannelId = args[2];
             var slackAPIClient = new SlackAPIClient.Builder().AccessToken(slackAPIAccessToken).Build();
